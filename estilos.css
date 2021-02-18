@@ -1,0 +1,72 @@
+@import url('segundahoja.css');
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+#wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#uno {
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+}
+#dos {
+    width: 100%;
+    background-color: aquamarine;
+    height: 100px;
+}
+#tres {
+    width: 75%;
+    background-color: fuchsia;
+    float: right;
+}
+#cuatro {
+    width: 25%;
+    height: 300px;
+    background-color: hotpink;
+    float: left;
+}
+#cinco {
+    height: 60px;
+    width: 100%;
+    background-color: mediumpurple;
+    clear: both;
+    margin-bottom: 0;
+}
+#segundo {
+    height: 100vh;
+    width: 100%;
+    background-color: olive;
+    margin: 0;
+    position: absolute;
+}
+#centrado {
+    background: silver;
+    line-height: 100px;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+#dos {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+.gradiente {
+    background: linear-gradient(to top right, #ffffff, #00e2ff, #00f, #000000);
+    height: 500px;
+}
