@@ -1,0 +1,14 @@
+#box{
+	width:300px;
+	height:300px;
+
+	/* fallbacks */
+	background: #1a82f7;
+	background-repeat: repeat-y;
+
+	/* Navegadores modernos (revisar las propiedades que soportan) */
+	background: -webkit-linear-gradient(left, #1a82f7, #1f1e22);
+	background: -moz-linear-gradient(left, #1a82f7, #1f1e22);
+	background: -o-linear-gradient(left, #1a82f7, #1f1e22);
+	background: -ms-linear-gradient(left, #1a82f7, #1f1e22);
+}

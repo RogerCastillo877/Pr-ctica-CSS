@@ -1,0 +1,10 @@
+body{
+	background:-webkit-linear-gradient(black, transparent 45%),
+		/* -webkit-linear-gradient(blue, yellow, transparent 45%), */
+		url('img/cielo.jpg'), white;
+		background:-moz-linear-gradient(black, transparent 45%), url('img/cielo.jpg'), white;
+		background:-o-linear-gradient(black, transparent 45%), url('img/cielo.jpg'), white;
+		background:-ms-linear-gradient(black, transparent 45%), url('img/cielo.jpg'), white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}

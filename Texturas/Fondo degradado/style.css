@@ -1,0 +1,8 @@
+body {
+    background: -webkit-linear-gradient(top, #ececec, #666666);
+    background: -moz-linear-gradient(top, #ececec, #666666);
+    background: -o-linear-gradient(top, #ececec, #666666);
+    background: -ms-linear-gradient(top, #ececec, #666666);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
